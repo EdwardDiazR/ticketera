@@ -1,0 +1,6 @@
+@TicketeraBackend_HostAddress = http://localhost:5036
+
+GET {{TicketeraBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
