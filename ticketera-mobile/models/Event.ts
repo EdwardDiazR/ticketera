@@ -12,8 +12,8 @@ export interface Event {
   paymentCurrency: string;
   images: EventImages;
   hasPrevent: boolean;
-  ticketsSaleStartTime: Date;
   ticketsSalePreventEndTime?: Date;
+  ticketsSaleStartTime: Date;
   organizerId: number;
   activityHistory: ActivityHistory[];
 }
